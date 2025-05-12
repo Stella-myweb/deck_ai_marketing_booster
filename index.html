@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 마케팅 부스터 프로젝트 - 슬라이드 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f8fafc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+        .slide-header {
+            background: linear-gradient(90deg, #0052cc 0%, #0077ff 100%);
+            height: 8px;
+            width: 100%;
+        }
+        .slide-content {
+            padding: 40px 60px;
+        }
+        .tech-pill {
+            background: linear-gradient(90deg, #e6f0ff 0%, #cce4ff 100%);
+            border-left: 4px solid #0066cc;
+            padding: 8px 16px;
+            border-radius: 4px;
+            margin: 6px 0;
+        }
+        .blue-gradient-text {
+            background: linear-gradient(90deg, #0052cc 0%, #0077ff 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+        .decorative-circle {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.1;
+            background: linear-gradient(135deg, #0052cc 0%, #00a3ff 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header"></div>
+        
+        <!-- Decorative elements -->
+        <div class="decorative-circle" style="width: 300px; height: 300px; top: -100px; right: -100px;"></div>
+        <div class="decorative-circle" style="width: 200px; height: 200px; bottom: -50px; left: -50px;"></div>
+        
+        <div class="slide-content">
+            <div class="mb-8">
+                <h1 class="text-4xl font-bold mb-2">AI 마케팅 부스터 프로젝트</h1>
+                <p class="text-xl text-gray-600">자영업자를 위한 AI 기반 마케팅 솔루션</p>
+                <div class="w-24 h-1 bg-blue-600 mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-10 mt-12">
+                <div>
+                    <h2 class="text-xl font-bold mb-4 blue-gradient-text">프로젝트 정보</h2>
+                    <div class="space-y-3">
+                        <div class="flex items-center">
+                            <i class="fas fa-users text-blue-600 mr-3 w-6"></i>
+                            <p><span class="font-medium">팀명:</span> AI 마케팅 부스터팀</p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-user text-blue-600 mr-3 w-6"></i>
+                            <p><span class="font-medium">팀원:</span> 정초롱</p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-bullseye text-blue-600 mr-3 w-6"></i>
+                            <p><span class="font-medium">주제:</span> 자영업자 대상 AI 마케팅 진단 서비스</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="text-xl font-bold mb-4 blue-gradient-text">기술 스택</h2>
+                    <div class="space-y-2">
+                        <div class="tech-pill">
+                            <i class="fas fa-laptop-code mr-2"></i> Streamlit
+                        </div>
+                        <div class="tech-pill">
+                            <i class="fas fa-link mr-2"></i> LangChain
+                        </div>
+                        <div class="tech-pill">
+                            <i class="fas fa-database mr-2"></i> 벡터 DB
+                        </div>
+                        <div class="tech-pill">
+                            <i class="fas fa-brain mr-2"></i> RAG 모델
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-14 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-500">
+                <h3 class="font-bold text-lg text-blue-700 mb-1"><i class="fas fa-lightbulb mr-2"></i> 핵심 특징</h3>
+                <p class="text-blue-800">외부 API 의존 없이 자체 구현 시스템으로 독립적이고 효율적인 AI 마케팅 솔루션 제공</p>
+            </div>
+        </div>
+        
+        <div class="slide-number">1 / 9</div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 마케팅 부스터 프로젝트 - 슬라이드 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f8fafc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+        .slide-header {
+            background: linear-gradient(90deg, #0052cc 0%, #0077ff 100%);
+            height: 8px;
+            width: 100%;
+        }
+        .slide-content {
+            padding: 40px 60px;
+        }
+        .problem-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            padding: 20px;
+            transition: all 0.3s;
+            height: 100%;
+        }
+        .problem-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 82, 204, 0.1);
+        }
+        .problem-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #e6f0ff 0%, #cce4ff 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+        }
+        .blue-gradient-text {
+            background: linear-gradient(90deg, #0052cc 0%, #0077ff 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .quote-box {
+            background-color: #f0f7ff;
+            border-left: 4px solid #0066cc;
+            padding: 16px 24px;
+            border-radius: 4px;
+            position: relative;
+        }
+        .quote-box:before {
+            content: """;
+            font-size: 60px;
+            color: #cce4ff;
+            position: absolute;
+            top: -10px;
+            left: 10px;
+            font-family: serif;
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+        .decorative-circle {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.1;
+            background: linear-gradient(135deg, #0052cc 0%, #00a3ff 100%);
+        }
+        .level-indicator {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .level-dot {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            margin-right: 6px;
+        }
+        .level-active {
+            background-color: #0052cc;
+        }
+        .level-inactive {
+            background-color: #e2e8f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header"></div>
+        
+        <!-- Decorative elements -->
+        <div class="decorative-circle" style="width: 300px; height: 300px; top: -100px; right: -100px;"></div>
+        <div class="decorative-circle" style="width: 200px; height: 200px; bottom: -50px; left: -50px;"></div>
+        
+        <div class="slide-content">
+            <div class="mb-8">
+                <h1 class="text-4xl font-bold mb-2">문제 정의</h1>
+                <p class="text-xl text-gray-600">자영업자의 디지털 마케팅 문제점</p>
+                <div class="w-24 h-1 bg-blue-600 mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-3 gap-6 mt-8">
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-clock text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 blue-gradient-text">시간 부족</h3>
+                    <p class="text-gray-700">콘텐츠 제작에 투자할 시간이 부족하여 온라인 마케팅 활동이 지연되거나 부실해집니다.</p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-graduation-cap text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 blue-gradient-text">전문성 부족</h3>
+                    <p class="text-gray-700">효과적인 마케팅 콘텐츠 제작을 위한 전문적인 지식과 경험이 부족합니다.</p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-coins text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 blue-gradient-text">높은 비용</h3>
+                    <p class="text-gray-700">외부 마케팅 대행사에 의존할 경우 자영업자에게 큰 비용 부담이 발생합니다.</p>
+                </div>
+            </div>
+
+            <div class="mt-10">
+                <h3 class="text-xl font-bold mb-4"><i class="fas fa-chart-bar text-blue-600 mr-2"></i> 현실 사례: 네이버 스마트 플레이스</h3>
+                
+                <div class="flex items-center">
+                    <div class="w-1/2 pr-4">
+                        <p class="text-gray-700 mb-3">대다수 자영업자가 <span class="font-bold text-blue-600">'기초 단계'</span> 수준에 머물러 있습니다</p>
+                        
+                        <div class="bg-gray-100 rounded-lg p-4 mb-3">
+                            <div class="flex justify-between items-center">
+                                <span class="font-medium">최적화 레벨:</span>
+                                <div class="level-indicator">
+                                    <div class="level-dot level-active"></div>
+                                    <div class="level-dot level-inactive"></div>
+                                    <div class="level-dot level-inactive"></div>
+                                    <div class="level-dot level-inactive"></div>
+                                </div>
+                            </div>
+                            <span class="text-sm text-gray-500">기초 단계</span>
+                        </div>
+                    </div>
+                    
+                    <div class="w-1/2">
+                        <div class="quote-box">
+                            <p class="text-gray-700 italic pl-6">"현재 스마트 플레이스의 최적화 상태는 기초 단계로, 기본적인 설정은 완료되었으나 체계적인 관리가 부족합니다."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">2 / 9</div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 마케팅 부스터 프로젝트 - 슬라이드 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f8fafc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+        .slide-header {
+            background: linear-gradient(90deg, #0052cc 0%, #0077ff 100%);
+            height: 8px;
+            width: 100%;
+        }
+        .slide-content {
+            padding: 40px 60px;
+        }
+        .feature-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            padding: 20px;
+            transition: all 0.3s;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 82, 204, 0.1);
+        }
+        .feature-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #e6f0ff 0%, #cce4ff 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+        }
+        .blue-gradient-text {
+            background: linear-gradient(90deg, #0052cc 0%, #0077ff 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .target-box {
+            background-color: #f0f7ff;
+            border-left: 4px solid #0066cc;
+            padding: 16px 24px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .goal-box {
+            background: linear-gradient(90deg, #0052cc 0%, #0077ff 100%);
+            color: white;
+            padding: 16px 24px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+        .decorative-circle {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.1;
+            background: linear-gradient(135deg, #0052cc 0%, #00a3ff 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header"></div>
+        
+        <!-- Decorative elements -->
+        <div class="decorative-circle" style="width: 300px; height: 300px; top: -100px; right: -100px;"></div>
+        <div class="decorative-circle" style="width: 200px; height: 200px; bottom: -50px; left: -50px;"></div>
+        
+        <div class="slide-content">
+            <div class="mb-8">
+                <h1 class="text-4xl font-bold mb-2">솔루션 제안</h1>
+                <p class="text-xl text-gray-600">AI 마케팅 부스터 서비스</p>
+                <div class="w-24 h-1 bg-blue-600 mt-4"></div>
+            </div>
+
+            <div class="target-box flex items-center">
+                <div class="mr-4 text-blue-600 text-3xl">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg text-blue-700 mb-1">서비스 대상</h3>
+                    <p>디지털 마케팅에 익숙하지 않은 자영업자/소상공인</p>
+                </div>
+            </div>
+
+            <div class="goal-box">
+                <div class="mr-4 text-3xl">
+                    <i class="fas fa-bullseye"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-1">서비스 목표</h3>
+                    <p>네이버 스마트 플레이스 최적화를 통한 온라인 가시성 향상 및 매출 증대</p>
+                </div>
+            </div>
+
+            <h3 class="text-xl font-bold mb-6 blue-gradient-text">서비스 특징</h3>
+
+            <div class="grid grid-cols-2 gap-6">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-desktop text-blue-600 text-xl"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">직관적인 UI/UX</h4>
+                    <p class="text-gray-700">Streamlit으로 구축한 사용자 친화적인 인터페이스로 누구나 쉽게 사용할 수 있습니다.</p>
+                    <div class="mt-auto pt-3">
+                        <span class="text-sm text-blue-600 font-medium">쉬운 접근성과 사용성</span>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot text-blue-600 text-xl"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">자체 AI 기반 진단</h4>
+                    <p class="text-gray-700">외부 API에 의존하지 않는 자체 개발 AI 시스템으로 안정적이고 비용 효율적인 서비스 제공</p>
+                    <div class="mt-auto pt-3">
+                        <span class="text-sm text-blue-600 font-medium">독립적이고 안정적인 시스템</span>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tasks text-blue-600 text-xl"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">맞춤형 액션 플랜</h4>
+                    <p class="text-gray-700">비즈니스 상황을 분석하여 즉시 실행 가능한 구체적인 마케팅 전략을 제시합니다.</p>
+                    <div class="mt-auto pt-3">
+                        <span class="text-sm text-blue-600 font-medium">실행 가능한 구체적 전략</span>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line text-blue-600 text-xl"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">최적화 전략 제시</h4>
+                    <p class="text-gray-700">네이버 스마트 플레이스 최적화를 통해 검색 노출을 높이고 온라인 고객 유입을 촉진합니다.</p>
+                    <div class="mt-auto pt-3">
+                        <span class="text-sm text-blue-600 font-medium">노출 증가 및 매출 향상</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">3 / 9</div>
+    </div>
+</body>
+</html>
